@@ -1,0 +1,7 @@
+/* Basic reset and full screen layout is handled in inline styles for critical rendering path, 
+   but specific complex styles can go here if needed later. 
+   Keeping it empty for now as inline styles in HTML cover the current requirements 
+   to ensure single-file portability if needed, but good to have the file existing. */
+body {
+    touch-action: none; /* Prevent pull-to-refresh on mobile */
+}
